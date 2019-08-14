@@ -19,7 +19,7 @@
 |이름|정락준|안준모|김도훈|윤동식|강상현|
 
 ### 2. C++
-- 교재 : effective C++, By Scott Meyers
+- 교재 : effective C++ 3rd, By Scott Meyers
 - 진행 방식 :
     - 공부한 내용 토론
     - 한 주에 3강씩 번갈아가면서 해당 섹션에 해당되는 예제 + 솔루션 제공
