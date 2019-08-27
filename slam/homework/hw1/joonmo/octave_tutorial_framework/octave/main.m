@@ -9,6 +9,7 @@
 % should read their documentation which tells you the expected dimensions.
 
 % Make tools available
+clc; clear; close all;
 addpath('tools');
 
 % Read world data, i.e. landmarks.
