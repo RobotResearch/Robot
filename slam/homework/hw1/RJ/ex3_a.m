@@ -9,7 +9,6 @@ function ex3_a()
   a2 = t2v(M2);
   
   p1 - a1
-  p2 - a2
-  
+  p2 - a2 
   
 end
