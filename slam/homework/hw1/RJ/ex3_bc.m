@@ -17,4 +17,9 @@ function ex3_b()
   th = -0.1;
   rot = [cos(th), -sin(th);sin(th), cos(th)];
   rot * dis
+  
+  x_t = [2 / pi ; 2 / pi; 1];
+  z = [2; 2; 0];
+  x_t + z
+  
 end
