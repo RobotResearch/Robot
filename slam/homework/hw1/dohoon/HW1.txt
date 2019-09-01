@@ -1,0 +1,12 @@
+1) vec = t2v(T)
+   T = v2t(vec)
+
+2)
+	a) homogeneous form으로 변환
+	b) rotation matrix와 tranlsation vector 계산해서 affine matrix 를 구하면 된다.
+		theta' = theta2 - theta1, x' = x2 - x1, y' = y2 - y1
+		[cos theta' -sin theta' x'
+		sin theta' cos theta' y'
+		0  0  1]
+
+3) poi = (3 ; 1; 1)
