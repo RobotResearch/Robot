@@ -1,0 +1,22 @@
+### 문제
+현재 상태(x0)은 모르지만 페인트 칠을 명령을 했을 때(u1 = p), 센서 값은 color로 인식했다. (z1 = c)
+이때 새로운 상태가 칠해지지 않은 상태(x1 = b)일 확률은?
+-> 즉, P(x1=b | z1 = c, u1 = p)
+
+### 풀이
+P(x1 = b | z1 = c, u1 = p)
+= P(z1 = c | x1 = b, u1 = p) * P(x1 = b | u1 = p) / P(z1 = c) ----- bayes' rule
+
+-> P(z1 = c | x1 = b, u1 = p) = P(z1 = c | x1 = b) ----- markov assumption
+= 0.2
+
+-> P(x1 = b | u1 = p) = P(x1 = b | x0 = b, u1 = p)*P(x0 = b) + P(x1 = b | x0 = c, u1 = p)*P(x0 = c) ----- law of total probabilty + markov assumption
+= 0.1 * P(x0 = b) + 9 * P(x0 = c) = 0.1 * P(x0 = b) ----- P(x1 = b | x0 = c, u1 = p)는 과거에 painted 인 곳이 blank일 확률이므로 0이다.
+
+-> P(z1 = c) = P(z1 = c | x0 = c)*P(x0 = c) + P(z1 = c | x0 = b)*P(x0 = b) ----- law of total probabilty
+= 0.7 * P(x0 = c) + 0.2  * P(x0 = b) = 0.7 - 0.5 * P(x0 = b) ----- 1 = P(x0 = c) + P(x0 = b)
+
+#define a P(x0 = b)
+
+thus,
+P(x1 = b | z1 = c, u1 = p) = 0.2 * 0.1 * a / (0.7 - 0.5 * a) = 0.2a/(7-5a)
