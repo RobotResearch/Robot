@@ -1,0 +1,5 @@
+1. velocity based model gamma term의 의미,
+
+2. 5 - p.57 : 최소 covariance는 왜 initial covariance보다 작을수 없나.
+
+3. new land mark의 covariance는 inf에서 어떻게 변할까? 계산해보자
