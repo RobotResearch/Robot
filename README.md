@@ -14,9 +14,9 @@
     1. [Robot Mapping 2013](http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/)
     2. [Robot Mapping 2018](http://ais.informatik.uni-freiburg.de/teaching/ws18/mapping/)
 
-|순서|1|2|3|4|5|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|이름|정락준|안준모|김도훈|윤동식|강상현|
+|순서|1|2|3|4|5|6|7|8|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|이름|~~정락준~~|~~안준모~~|~~김도훈~~|~~정락준~~|안준모|김도훈|정락준|안준모|김도훈|
 
 ### 2. C++
 - 교재 : effective C++ 3rd, By Scott Meyers
