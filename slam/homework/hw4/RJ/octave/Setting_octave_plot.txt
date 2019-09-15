@@ -1,0 +1,7 @@
+## do this command when octave plot not working.
+
+close all
+graphics_toolkit gnuplot
+plot (rand (3))
+xlabel ('\phi')
+print test.png
