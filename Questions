@@ -3,3 +3,5 @@
 2. 5 - p.57 : 최소 covariance는 왜 initial covariance보다 작을수 없나.
 
 3. new land mark의 covariance는 inf에서 어떻게 변할까? 계산해보자
+
+4. Information matrix 의 off-diagonal term 의 진짜 의미는?? 즉, covariance matrix의 inverse가 갖는 직관적인 의미는 무엇인가.
